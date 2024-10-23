@@ -1,0 +1,15 @@
+{
+  "name": "fashionhub-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:local": "cross-env BASE_URL=http://localhost:4000/fashionhub/ npm run cypress:run",
+    "test:staging": "cross-env BASE_URL=https://staging-env/fashionhub/ npm run cypress:run",
+    "test:production": "cross-env BASE_URL=https://pocketaces2.github.io/fashionhub/ npm run cypress:run"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cross-env": "^7.0.3"
+  }
+}

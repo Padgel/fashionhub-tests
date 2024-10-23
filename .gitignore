@@ -1,0 +1,2 @@
+node_modules/
+cypress/e2e/output/pr_list.csv
